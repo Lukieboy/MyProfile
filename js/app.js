@@ -92,11 +92,11 @@ toggleProjects.addEventListener('click', ()=>{
 
 
 function checker(){
-    if(switchInput.checked){
+//     if(switchInput.checked){
         darkMode();
-    }else{
-        lightMode();
-    }
+//     }else{
+//         lightMode();
+//     }
 }
 
 label.addEventListener('click', ()=> checker());
